@@ -59,7 +59,7 @@ p{
 }
 
 section{ 
-    height: 1200px;
+    height: 1000px;
     }
 
 .bio-area{
@@ -71,10 +71,9 @@ section{
 
 .latest-area h1{
     font-size: 35px;
+    text-align: center;
 }
-.latest-area h1{
-    padding-top: 100px;
-}
+
 
 .container{
     display: flex;
@@ -90,8 +89,63 @@ section{
     width: 100%;
     height: auto;
 }
+.last-area h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.last-area h5{
+    font-size: 20px;
+    text-align: center;
+}
+.last-area h6{
+    font-size: 15px;
+    text-align: center;
+    color: dimgrey;
+}
+.para{
+     padding: 50px 400px;
+}
+
+.last-area p{
+    font-size: 15px;
+    text-align: center;
+    color: dimgrey;
+    
+}
 
 
+.message h5{
+     
+    font-size: 15px;
+  text-align: center;
+  color: white;
+}
+.message a{
+    font-size: 20px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  
+}
+.message{
+
+    height: 150px;
+    width: 450px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, lightSalmon, #EC4F8F);
+    padding: 10px;
+    margin: 50px auto;
+    position: relative;
+  
+}
+footer{
+    color: dimgray;
+ text-align: center;
+
+}
 
 
 
